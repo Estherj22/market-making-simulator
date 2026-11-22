@@ -10,7 +10,7 @@ How does the size of the bid-ask spread trade off against adverse selection? A t
 • Profit: cash plus inventory valued at the current true price.
 All data is simulated, so there is no market data to download.
 ## Results
-Chart: !profit against spread (file: spread_vs_profit.png)
+Chart: ![profit against sprea] (file: spread_vs_profit.png)
 Finding 1: Profit peaked at a spread of about 0.50. Below that, informed traders caused losses. Above it, trading volume dried up
 Finding 2: When buyers arrived more often than sellers (P_buyer 0.50, P_seller 0.30), the market maker kept selling and ended with a short inventory of -505 units. Profit was 316.17, compared with [X] when both probabilities were 0.30. One-sided order flow leaves the market maker exposed to price moves, which is the inventory risk the quote-shifting rule is meant to reduce
 • Real order flow is not random. Trades cluster and react to news.
