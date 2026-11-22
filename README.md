@@ -1,5 +1,5 @@
 ## Market-Making Simulation
-<<A Python simulation of a market maker quoting a bid and an ask against random and informed traders. I built it to understand how a trading firm earns money from the spread, and how adverse selection and inventory risk eat into that>>
+<< A Python simulation of a market maker quoting a bid and an ask against random and informed traders. I built it to understand how a trading firm earns money from the spread, and how adverse selection and inventory risk eat into that >>
 The question
 How does the size of the bid-ask spread trade off against adverse selection? A tight spread attracts more trades but loses money to traders who know where the price is heading. A wide spread protects against those traders but scares off the harmless ones.
 How it works
