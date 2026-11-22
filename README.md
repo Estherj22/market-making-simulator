@@ -12,7 +12,7 @@ All data is simulated, so there is no market data to download.
 ## Results
 ![Profit against spread](spread_vs_profit.png)
 Finding 1: Profit peaked at a spread of about 0.50. Below that, informed traders caused losses. Above it, trading volume dried up
-Finding 2: When buyers arrived more often than sellers (P_buyer 0.50, P_seller 0.30), the market maker kept selling and ended with a short inventory of -505 units. Profit was 316.17, compared with [X] when both probabilities were 0.30. One-sided order flow leaves the market maker exposed to price moves, which is the inventory risk the quote-shifting rule is meant to reduce
+Finding 2: When buyers arrived more often than sellers (P_buyer 0.50, P_seller 0.30), the market maker kept selling and ended with a short inventory of -505 units. Profit was 316.17, compared with 737.8 when both probabilities were 0.30 at 0.20 spread. One-sided order flow leaves the market maker exposed to price moves, which is the inventory risk the quote-shifting rule is meant to reduce
 • Real order flow is not random. Trades cluster and react to news.
 • Real markets have many competing market makers, not one.
 • The price model is a simple random walk with constant volatility.
